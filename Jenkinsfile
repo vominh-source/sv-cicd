@@ -1,8 +1,8 @@
-// def helmValues = "/var/lib/jenkins/workspace/${JOB_NAME}/app-demo/values.yaml"
-// def helmChart = "/var/lib/jenkins/workspace/${JOB_NAME}/app-demo/"
+def helmValues = "/var/lib/jenkins/workspace/${JOB_NAME}/app-demo/values.yaml"
+def helmChart = "/var/lib/jenkins/workspace/${JOB_NAME}/app-demo/"
 
-def helmValues="C:/ProgramData/Jenkins/.jenkins/workspace/${JOB_NAME}/app-demo/values.yaml"
-def helmChart="C:/ProgramData/Jenkins/.jenkins/workspace/${JOB_NAME}/app-demo/"
+// def helmValues="C:/ProgramData/Jenkins/.jenkins/workspace/${JOB_NAME}/app-demo/values.yaml"
+// def helmChart="C:/ProgramData/Jenkins/.jenkins/workspace/${JOB_NAME}/app-demo/"
 
 pipeline {
     agent any

@@ -12,7 +12,7 @@ pipeline {
     }
 
     environment {
-        REPO_URL = 'https://github.com/vominh-source/nodejs-app-ci-cd.git'
+        REPO_URL = 'https://github.com/vominh-source/sv-cicd.git'
         BRANCH_NAME = "${params.BRANCH_NAME}"
         IMAGE_NAME = 'ntquan87/nodejs-app-ci-cd'
     }
